@@ -16,3 +16,9 @@ body
 	font-size: 16px;
 	font-family: 'Arial', 'helvetica', sans-serif;
 }
+
+.data-graphic
+{
+	border: thin dashed blue;
+	width: 30%;
+}
