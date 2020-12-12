@@ -11,8 +11,87 @@
 	margin: 0;
 }
 
+.wrapper
+{
+	width: 1000px;
+	margin: 0 auto;
+}
+
 body
 {
 	font-size: 16px;
 	font-family: 'Arial', 'helvetica', sans-serif;
+}
+
+.data-graphic
+{
+	border: outset;
+	width: 40%;
+}
+
+header
+{
+	background-image: linear-gradient(red, white);
+	height: 200px;
+}
+
+#title
+{
+	display: flex;
+	justify-content: center;
+	padding: 70px;
+	font-family: helvetica, open sans, arial;
+	font-size: 36px;
+	text-shadow:
+	-1px -1px 0 #fff,
+	1px -1px 0 #fff,
+	-1px 1px 0 #fff,
+	1px 1px 0 #fff;
+}
+
+#paragraph1
+{
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+h3
+{
+	padding: 15px;
+}
+
+.dataImages
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+p
+{
+	margin-top: 15px;
+}
+
+.argument
+{
+	padding: 20px;
+}
+
+.footer
+{
+	background-color: red;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	height: 100px;
+	color: #fff;
+	border-width: 5px;
+	border-top-style: groove;
+	border-color: #CC0700;
+}
+
+#footerText
+{
+	margin: 70px 10px 0px 10px;
+	font-size: 12px;
 }
