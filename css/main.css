@@ -11,6 +11,12 @@
 	margin: 0;
 }
 
+.wrapper
+{
+	width: 1000px;
+	margin: 0 auto;
+}
+
 body
 {
 	font-size: 16px;
@@ -19,6 +25,19 @@ body
 
 .data-graphic
 {
-	border: thin dashed blue;
+	border: thin dashed black;
 	width: 30%;
+}
+
+#title
+{
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#paragraph1
+{
+	margin-bottom: 20px;
 }
